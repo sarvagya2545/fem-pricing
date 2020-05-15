@@ -1,0 +1,26 @@
+@media(min-width: 600px){
+    .bg-img--top{
+        right:0;
+    }
+}
+
+
+@media(min-width: 975px){
+    .price-container{
+        max-width: 100%;
+        @include flexMiddle;
+    }
+
+    .price-card{
+        min-width: 30rem;
+        &:nth-child(even){
+            width: 33rem;
+            height: 50rem;
+            padding: 5.5rem 2rem;
+        }
+    }
+
+    .bg-img--bottom{
+        display: block;
+    }
+}
